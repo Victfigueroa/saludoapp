@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Clonar') {
-            steps {
-                git 'https://github.com/Victfigueroa/saludoapp.git'
-            }
-        }
         stage('Compilar') {
             steps {
                 sh 'mvn clean compile'
@@ -31,6 +26,7 @@ pipeline {
         }
     }
 }
+
 
 
 
