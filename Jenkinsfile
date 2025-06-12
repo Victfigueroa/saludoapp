@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Compilar') {
             steps {
-                bat 'mvn clean compile'
+                bat '"C:\\Maven\\apache-maven-3.9.10\\bin\\mvn.cmd" clean compile'
             }
         }
         stage('Probar') {
             steps {
-                bat 'mvn test'
+                bat '"C:\\Maven\\apache-maven-3.9.10\\bin\\mvn.cmd" test'
             }
         }
         stage('Empaquetar') {
             steps {
-                bat 'mvn package'
+                bat '"C:\\Maven\\apache-maven-3.9.10\\bin\\mvn.cmd" package'
             }
         }
     }
@@ -26,6 +26,7 @@ pipeline {
         }
     }
 }
+
 
 
 
