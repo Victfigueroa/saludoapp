@@ -2,7 +2,7 @@
 
 **Grupo 5:**
 - Juan Villaman  
-- Cristóbal de Jesus  
+- Cristóbal Erazo
 - Victor Figueroa  
 
 > **Beneficios concretos:** Automatizar con Jenkins agiliza el desarrollo, reduce errores humanos, garantiza integraciones consistentes y permite detectar fallos tempranos con cada cambio en el repositorio.
