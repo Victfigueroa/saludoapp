@@ -5,7 +5,7 @@
 - Cristóbal Erazo
 - Victor Figueroa  
 
-> **Beneficios concretos:** Automatizar con Jenkins agiliza el desarrollo, reduce errores humanos, garantiza integraciones consistentes y permite detectar fallos tempranos con cada cambio en el repositorio. Ademas de hacerlo amigable debido a su grafica.
+> **Beneficios concretos:** La automatización mediante Jenkins permite acelerar el ciclo de desarrollo de software, minimizar errores asociados a intervenciones manuales, asegurar integraciones continuas consistentes, y facilitar la detección temprana de fallos o regresiones tras cada cambio realizado en el repositorio de código.
 
 > **Parte más crítica en equipos grandes:** La integración continua de múltiples desarrolladores trabajando en paralelo. Esto puede generar conflictos de código, fallas inesperadas y dificultades para identificar qué cambio causó un error.
 
